@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import '../assets/styles/Contact.css'
 import { useRef } from 'react'
 import { Link } from 'react-router-dom'
+import {FaEnvelope, FaMap, FaPhone, FaFacebookF, FaTwitch, FaInstagram, FaTwitter} from 'react-icons/fa'
 
 export default function Contact() {
   const inputRef = useRef()
@@ -19,9 +20,9 @@ export default function Contact() {
                 <h3>Contact us</h3>
               </div>
               <div className='contact-info'>
-                <div className='contact-element'>Benin city, Edo State</div>
-                <div className='contact-element'>+2349155104851</div>
-                <div className='contact-element'>samuelawofisan1@gmail.com</div>
+                <div className='contact-element'><FaMap/> Benin city, Edo State</div>
+                <div className='contact-element'><FaPhone/> +2349155104851</div>
+                <div className='contact-element'><FaEnvelope/> samuelawofisan1@gmail.com</div>
               </div>
           </div>
           <div className="col">
@@ -57,13 +58,13 @@ export default function Contact() {
                 <div><h3>SOCIAL HANDLES</h3></div>
                 <div className='icons'>
                  <div className="social-element">
-                  <Link to=''>Facebook</Link>
+                  <Link to=''><FaFacebookF color='blue' size={20}/></Link>
                  </div>
                  <div className="social-element">
-                  <Link to=''>Twitter</Link>
+                  <Link to=''><FaTwitter color='blue' size={20}/></Link>
                  </div>
                  <div className="social-element">
-                  <Link to=''>Instagram</Link>
+                  <Link to=''><FaInstagram color='red' size={20}/></Link>
                  </div>
                  
                 </div>

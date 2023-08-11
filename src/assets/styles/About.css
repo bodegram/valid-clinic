@@ -9,15 +9,15 @@
     padding-left: 30px;
     padding-right: 30px;
     border: none;
-    background-color: green;
+    background-color: blue;
     color: white;
     margin-top: 15px;
 }
 
 .about-button:hover{
     background-color: white;
-    border: 1px solid green;
-    color: green;
+    border: 1px solid blue;
+    color: blue;
 }
 
 .about-first-top{

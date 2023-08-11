@@ -1,7 +1,8 @@
 import React from 'react'
+import { FaArrowCircleRight, FaHandHoldingMedical } from 'react-icons/fa'
 
 export default function AboutComponent() {
-    const aboutImage = require('../assets/images/3.png')
+    const aboutImage = require('../assets/images/a.avif')
   return (
     <div>
         <div className="container">
@@ -11,7 +12,7 @@ export default function AboutComponent() {
                 <div className='about-title'>About us</div>
                 </div>
                 <div className="about-first-footer">
-                    <div>icon</div>
+                    <div><FaArrowCircleRight size={30}/></div>
                 </div>
             </div>
             <div className="col">
@@ -41,10 +42,10 @@ export default function AboutComponent() {
                 </div> <hr />
                 <div className="num-row-2">
                     <div className="num-col-2">
-                        <div className="num-col-text-2">We use modern <br /> equipments</div>
+                        <div className="num-col-text-2"><FaHandHoldingMedical size={20}/> We use modern <br /> equipments</div>
                     </div>
                     <div className="num-col-2">
-                      <div className="num-col-text-2">The result surpasses all <br /> expectations</div>
+                      <div className="num-col-text-2"><FaHandHoldingMedical size={20}/> The result surpasses all <br /> expectations</div>
                     </div>
                 </div>
 
@@ -58,10 +59,10 @@ export default function AboutComponent() {
                 </div> <hr />
                 <div className="num-row-2">
                     <div className="num-col-2">
-                        <div className="num-col-text-2">Individual contract <br /> with the client</div>
+                        <div className="num-col-text-2"><FaHandHoldingMedical size={20}/> Individual contract <br /> with the client</div>
                     </div>
                     <div className="num-col-2">
-                      <div className="num-col-text-2">We are certified</div>
+                      <div className="num-col-text-2"><FaHandHoldingMedical size={20}/> We are certified</div>
                     </div>
                 </div>
 
@@ -75,10 +76,10 @@ export default function AboutComponent() {
                 </div> <hr />
                 <div className="num-row-2">
                     <div className="num-col-2">
-                        <div className="num-col-text-2">We have the best <br /> professionals working</div>
+                        <div className="num-col-text-2"><FaHandHoldingMedical size={20}/> We have the best <br /> professionals working</div>
                     </div>
                     <div className="num-col-2">
-                      <div className="num-col-text-2">we train our own <br /> specialists</div>
+                      <div className="num-col-text-2"><FaHandHoldingMedical size={20}/> we train our own <br /> specialists</div>
                     </div>
                 </div>
 

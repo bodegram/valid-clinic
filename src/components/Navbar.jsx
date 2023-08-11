@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import '../assets/styles/Navbar.css'
+import { FaAlignRight, FaWindowClose } from 'react-icons/fa'
 
 export default function Navbar() {
     const [active, setActive] = useState(false)
@@ -18,7 +19,7 @@ export default function Navbar() {
             <ul className={active? 'show': 'hide'}>
                <li>
                <div className="cancel-btn">
-                    <button onClick={()=>setActive(!active)}>cancel</button>
+                    <button onClick={()=>setActive(!active)} className='cancel-icon'><FaWindowClose size={25}/></button>
                 </div>
                </li>
                 <li className='nav-item'>
@@ -39,7 +40,7 @@ export default function Navbar() {
             </ul>
             </div>
             <div className='nav-btn'>
-                <button onClick={handleMenu}>Menu</button>
+                <button onClick={handleMenu} className='nav-icon'><FaAlignRight size={25}/></button>
             </div>
         </nav>
     </div>

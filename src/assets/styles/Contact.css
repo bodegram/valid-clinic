@@ -21,6 +21,7 @@ label{
 .icons{
     flex-direction: row;
     display: flex;
+    margin-top: 10px;
 }
 
 .contact-btn{
@@ -49,6 +50,12 @@ textarea{
     margin-top: 7px;
     font-size: small;
 }
+
+.social-element{
+    margin-right: 7px;
+}
+
+
 
 @media screen and (max-width:768px) {
   

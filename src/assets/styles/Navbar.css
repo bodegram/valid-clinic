@@ -1,8 +1,10 @@
 nav{
     display: flex;
     justify-content: space-between;
-    padding-top: 15px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 nav .nav-brand{
@@ -43,6 +45,17 @@ nav ul li{
 
 .cancel-btn{
     display: none;
+}
+
+.nav-icon{
+    background-color: transparent;
+    border: none;
+}
+
+.cancel-icon{
+     background-color: transparent;
+     border: none;
+     color: white;
 }
 
 @media screen and (max-width:768px) {
