@@ -1,0 +1,55 @@
+.form{
+    margin-top: 12px;
+    
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.input-field{
+    margin-bottom: 15px;
+}
+
+label{
+    font-size: small;
+}
+
+.icons{
+    flex-direction: row;
+    display: flex;
+}
+
+.contact-btn{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+
+}
+
+.contact-info{
+    margin-top: 10px;
+}
+
+.contact-element{
+    margin-top: 7px;
+    font-size: small;
+}
+
+@media screen and (max-width:768px) {
+  
+}

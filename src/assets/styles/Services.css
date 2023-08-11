@@ -1,0 +1,82 @@
+.service-button{
+    outline: none;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.service-button:hover{
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+}
+
+.services-title{
+  font-weight: bold;
+}
+
+.services-header{
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+
+.service-card{
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.service-card-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-card-title{
+    font-weight: bold;
+}
+
+
+.buttons{
+    margin-bottom: 50px;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+    transition: all 5.0s;
+}
+
+.service-card-btn{
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.service-card-body{
+    margin-top: 15px;
+}
+
+
+@media screen and (max-width: 768px){
+    .services-last{
+        display: none;
+    }
+}
