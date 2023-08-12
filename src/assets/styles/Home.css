@@ -1,0 +1,89 @@
+.hero-col-1{
+    width: 37%;
+}
+
+.hero-col-1-text{
+    line-height: 30px;
+    font-size: larger;
+}
+
+.hero-top{
+    margin-bottom: 100px;
+}
+
+.fact{
+    font-weight: bold;
+}
+
+.fact-texts{
+    width: 50%;
+}
+
+.fact-text{
+    font-size: small;
+    margin-bottom: 14px;
+    margin-top: 12px;
+    font-weight: 700;
+}
+
+.hero-card{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hero-card-top-text{
+    width: 50%;
+}
+
+.hero-card-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.hero-card-btn{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 7px 10px 7px 10px;
+    font-size: 10px;
+}
+
+.hero-card-btn:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.hero-col-2-header{
+    font-weight: bold;
+}
+
+.hero-col-2-text{
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-col-1{
+        width: 100%;
+    }
+
+    .fact-texts{
+        width: 100%;
+    }
+
+    .hero-top{
+        margin-bottom: 70px;
+    }
+
+    .hero-card-top-text{
+        width: 100%;
+    }
+}
