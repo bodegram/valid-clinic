@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="row">
             <div className="col">
               <div className="hero-col-1">
-              <div className='hero-col-1-text'><h3>Over a long period of work we have provided hundreds of thousands of health care services</h3></div>
+              <div className='hero-col-1-text'><h5>Over a long period of work we have provided hundreds of thousands of health care services</h5></div>
               </div>
             </div>
             <div className="col">

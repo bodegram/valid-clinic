@@ -1,0 +1,62 @@
+.sidebar-nav{
+    background-color: black;
+    justify-content: space-between;
+    color: white;
+    padding-left: 15px;
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+
+}
+
+.sidebar-header{
+    margin-bottom: 20px;
+    padding-left: 19px;
+    padding-top: 20px;
+}
+
+.sidebar-items{
+    list-style: none;
+}
+
+.sidebar-items .sidebar-item{
+    margin-bottom: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.sidebar-link{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-nav{
+    float: left;
+    position: absolute;
+    left: 20%;
+    background-color: rgb(43, 39, 39);
+    width: 80%;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.navbar-nav-left{
+    float: right;
+    
+    
+}
+
+main{
+    left: 21%;
+    position: absolute;
+    top: 40px
+
+
+}
+
+
+

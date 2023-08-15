@@ -4,6 +4,8 @@ import '../assets/styles/Services.css'
 import Service from '../components/Service'
 import { useState } from 'react'
 import { FaHospital } from 'react-icons/fa'
+import Footer from '../components/Footer'
+
 
 export default function Services() {
     const data = [
@@ -100,6 +102,7 @@ export default function Services() {
                 </div>
             </div>
          </div>
+         <Footer/>
     </div>
   )
 }

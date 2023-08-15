@@ -8,7 +8,7 @@ export default function Navbar() {
 
     const handleMenu = () => {
         setActive(!active)
-        console.log(active)
+       
     }
 
   return (
@@ -34,9 +34,10 @@ export default function Navbar() {
                 <li className='nav-item'>
                     <Link to='/contact' className='nav-link'>Contact</Link>  
                 </li>
-                <li>
-                    {active}
+                <li className='nav-item'>
+                    <Link to='/login' className='nav-link'>Login</Link>  
                 </li>
+               
             </ul>
             </div>
             <div className='nav-btn'>

@@ -1,16 +1,27 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar'
 import '../assets/styles/Contact.css'
 import { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import {FaEnvelope, FaMap, FaPhone, FaFacebookF, FaTwitch, FaInstagram, FaTwitter} from 'react-icons/fa'
+import Footer from '../components/Footer'
 
 export default function Contact() {
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [telephone, setTelephone] = useState("")
+  const [message, setMessage] = useState("")
   const inputRef = useRef()
 
   useEffect(()=>{
     inputRef.current.focus()
   }, [])
+
+  console.log(name)
+
+  const handleSubmit = (e) =>{
+        e.preventDefault()
+  }
   return (
     <div>
          <Navbar/>
@@ -27,25 +38,25 @@ export default function Contact() {
           </div>
           <div className="col">
             <div>
-              <div><h3>SEND US A MESSAGE</h3></div>
+              <div><h3>Send us a message</h3></div>
             </div>
             <div className='form'>
-               <form action="">
+               <form action="" onSubmit={handleSubmit}>
                <div className="input-field">
                   <label htmlFor="">Name</label><br />
-                  <input type="text" name="" id="" ref={inputRef} />
+                  <input type="text" name="" id="" ref={inputRef} onChange={(e) => setName(e.target.value)} />
                 </div>
                 <div className="input-field">
                   <label htmlFor="">Email Address</label><br />
-                  <input type="text" name="" id="" />
+                  <input type="text" name="" id=""  onChange={(e) => setTelephone(e.target.value)} />
                 </div>
                 <div className="input-field">
                   <label htmlFor="">Telephone</label><br />
-                  <input type="text" name="" id="" />
+                  <input type="text" name="" id=""  onChange={(e) => setTelephone(e.target.value)} />
                 </div>
                 <div className="input-field">
                   <label htmlFor="">Message</label><br />
-                  <textarea name="" id="" cols="30" rows="4"></textarea>
+                  <textarea name="" id="" cols="30" rows="4"  onChange={(e) => setMessage(e.target.value)} ></textarea>
                 </div>
                 <div className="input-field">
                  <button className='contact-btn'>Submit</button>
@@ -55,7 +66,7 @@ export default function Contact() {
           </div>
           <div className="col">
               <div>
-                <div><h3>SOCIAL HANDLES</h3></div>
+                <div><h3>Social Handles</h3></div>
                 <div className='icons'>
                  <div className="social-element">
                   <Link to=''><FaFacebookF color='blue' size={20}/></Link>
@@ -71,6 +82,7 @@ export default function Contact() {
               </div>
           </div>
          </div>
+         <Footer/>
     </div>
   )
 }

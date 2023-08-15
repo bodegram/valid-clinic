@@ -1,95 +1,17 @@
+.about-image{
+   width: 500px;
+}
+
 .about-title{
-    font-weight: bold;
-}
-
-.about-button{
-    outline: none;
-    border-radius: 30px;
-    padding: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border: none;
-    background-color: blue;
-    color: white;
-    margin-top: 15px;
-}
-
-.about-button:hover{
-    background-color: white;
-    border: 1px solid blue;
-    color: blue;
-}
-
-.about-first-top{
-    margin-bottom: 380px;
-}
-
-.about-middle-top{
-    margin-bottom: 230px;
-}
-
-.about-middle-footer-text{
-    font-weight: bold;
-}
-
-.about-middle-top-text{
-    margin-bottom: 15px;
-}
-
-.about-middle-top-subtext{
-    font-size: small;
-}
-
-.about-last-top{
-    margin-bottom: 50px;
-}
-
-.about-last-top-image{
-    width: 400px;
-    height: 150px;
-}
-
-
-.num-row{
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 10px;
 }
 
-.num-col-text{
-    font-weight: bold;
-}
-
-.num-row-2{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
-
-.num-col-text-2{
+.about-text{
     font-size: small;
-    margin-top: 5px;
-    color: dimgray;
-    font-weight: bold;
-    
 }
 
 @media screen and (max-width:768px) {
-    .about-first-top{
-        margin-bottom: 30px;
-    }
-    
-
-    .about-middle-top{
-        margin-bottom: 30px;
-    }
-
-    .about-first-footer{
-        display: none;
-    }
-
-    .about-last-top-image{
+    .about-image{
         width: 100%;
-        height: 150px;
     }
 }
