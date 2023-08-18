@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <div>
         <nav className='container'>
-            <div className='nav-brand'>VALID</div>
+            <div className='nav-brand'>GMC</div>
             <div className="nav-menu">
             <ul className={active? 'show': 'hide'}>
                <li>
@@ -35,7 +35,7 @@ export default function Navbar() {
                     <Link to='/contact' className='nav-link'>Contact</Link>  
                 </li>
                 <li className='nav-item'>
-                    <Link to='/login' className='nav-link'>Login</Link>  
+                    <Link to='/gallery' className='nav-link'>Gallery</Link>  
                 </li>
                
             </ul>

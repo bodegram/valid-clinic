@@ -5,7 +5,7 @@ export default function AboutComponent() {
     const aboutImage = require('../assets/images/a.avif')
   return (
     <div>
-      <div className='container'>
+      <div className='container' style={{marginTop: '30px'}}>
       <h3 className='about-title'>About Us</h3>
       <div className="row">
         <div className="col">

@@ -1,0 +1,24 @@
+.error{
+    text-align: center;
+}
+
+.error-header{
+    display: inline-flex;
+}
+
+.error-left{
+    border-right: 1px solid black;
+    padding-right: 12px;
+}
+
+.error-right{
+    padding-left: 12px;
+}
+
+.error-text{
+    font-size: small;
+}
+
+.error-body{
+    margin-top: 40px;
+}

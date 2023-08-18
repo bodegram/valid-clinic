@@ -1,0 +1,40 @@
+.review-card-header{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.review-card-title{
+    font-weight: bold;
+    padding-right: 50px;
+}
+
+.review-card-text{
+    font-size: small;
+    font-style: italic;
+    width: 70%;
+}
+
+.review-card-img{
+    margin-right: 4px;
+    margin-top: 4px;
+}
+
+.review-card{
+    border-right: 5px solid black;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .review-card{
+       width: 350px;
+       margin-right: 13px;
+    }
+
+    .review-card-text{
+        width: 100%;
+    }
+
+    .review-card-title{
+        padding-right: 150px;
+    }
+} 

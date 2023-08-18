@@ -25,7 +25,7 @@ export default function Contact() {
   return (
     <div>
          <Navbar/>
-         <div className="row container">
+         <div className="row container" style={{marginTop: '30px'}}>
           <div className="col">
               <div>
                 <h3>Contact us</h3>

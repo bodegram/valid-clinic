@@ -75,7 +75,7 @@ export default function Services() {
   return (
     <div>
          <Navbar/>
-         <div className='container'>
+         <div className='container' style={{marginTop: '30px'}}>
             <div className="row">
                 <div className="col">
                     <div className='services-title'>Services</div>

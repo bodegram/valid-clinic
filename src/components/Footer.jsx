@@ -10,8 +10,8 @@ export default function Footer() {
             <div className="row">
                 <div className="col">
                    <div className="footer-one">
-                   <div className='footer-one-header'><h5>VALID CLINIC</h5></div>
-                    <div className='footer-one-text'>Valid clinic is one of the best hospital in Benin city, Edo State, Nigeria.</div>
+                   <div className='footer-one-header'><h5>GMC</h5></div>
+                    <div className='footer-one-text'>General Medical Center is one of the best hospital in Benin city, Edo State, Nigeria.</div>
                    </div>
                 </div>
                 <div className="col">
@@ -37,7 +37,7 @@ export default function Footer() {
                      </div>
                 </div>
             </div>
-            <div className='footer-bottom'>Copyright 2023. All Rights Reserved | Valid Clinic. </div>
+            <div className='footer-bottom'>Copyright 2023. All Rights Reserved | General Medical Center. </div>
         </div>
         </footer>
     </div>
